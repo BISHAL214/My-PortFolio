@@ -50,7 +50,7 @@ export default function About() {
                     <img
                     className='absolute w-[149%] top-[0px] left-[0px] h-full object-cover pointer-events-none z-[3] transition-[0.5s]'
                     alt="Bishal Mondal"
-                    src="https://avatars.githubusercontent.com/u/109234895?s=400&u=802d7a26dc2c24fe4cdf3a86e124a86e1b0f27ab&v=4"
+                    src="/profile.jpg"
                     />
                 </div>
             </div>
