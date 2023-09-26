@@ -10,7 +10,7 @@ export default function About() {
             <div className='lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center'>
 
                 <p className="mb-8 leading-relaxed text-3xl flex flex-row text-white"> Hi There
-                    <img src="./Image/Hiiii.png" alt="Hi There" className='px-3 animate-waving-hand' />
+                    <img src="/Image/Hiiii.png" alt="Hi There" className='px-3 animate-waving-hand' />
                  </p>
 
                 <h1 className='title-font text-5xl mb-7 -mt-7 font-medium text-whit text-gray-400'>
@@ -50,7 +50,7 @@ export default function About() {
                     <img
                     className='absolute w-[149%] top-[0px] left-[0px] h-full object-cover pointer-events-none z-[3] transition-[0.5s]'
                     alt="Bishal Mondal"
-                    src="./Image/profile.jpg"
+                    src="/Image/profile.jpg"
                     />
                 </div>
             </div>
