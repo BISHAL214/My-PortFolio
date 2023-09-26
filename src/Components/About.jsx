@@ -13,7 +13,7 @@ export default function About() {
                     <img src="./Hiiii.png" alt="Hi There" className='px-3 animate-waving-hand' />
                  </p>
 
-                <h1 className='title-font text-5xl mb-7 -mt-7 font-medium text-whit text-gray-400'>
+                <h1 className='title-font text-5xl mb-7 -mt-7 font-medium text-white'>
                     I
                     <span className='font-bold ml-4 bg-gradient-to-tl from-yellow-300 via-cyan-300 to-pink-400 text-transparent bg-clip-text
                      font-display tracking-tighter'>
