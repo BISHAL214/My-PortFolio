@@ -4,7 +4,7 @@ export const projects = [
       subtitle: "Javascript and OpenWeather API",
       description:
         "A simple Weather Checking Application which has a simple Card style User Interface. An API provided by OpenWeatherMap.org is used here to gathering the weather changing information as a data of my project. Here I use basic async await function to for handling the API",
-      image:  "./Public/Image/weather-img.png",
+      image:  "./Image/weather-img.png",
       link: "https://github.com/BISHAL214/Weather-App.git",
     },
   ];
