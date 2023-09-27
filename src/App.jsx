@@ -6,6 +6,7 @@ import Contact from './Components/Contact'
 import Footer from './Components/Footer'
 import Loader from './Components/Loader'
 import { useEffect, useState } from 'react'
+<script src="https://cdn.tailwindcss.com"></script>
 
 function App() {
 
@@ -33,6 +34,7 @@ function App() {
           <Skills />
           <Contact />
           <Footer />
+
         </>
 
 
