@@ -1,5 +1,6 @@
 import React from 'react'
 import {Typewriter, Cursor} from 'react-simple-typewriter'
+import {motion} from 'framer-motion'
 
 
 export default function About() {
@@ -10,7 +11,7 @@ export default function About() {
             <div className='lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center'>
 
                 <p className="mb-8 leading-relaxed text-3xl flex flex-row text-white"> Hi There
-                    <img src="./Hiiii.png" alt="Hi There" className='px-3 animate-waving-hand' />
+                    <img src="./Hiiii.png" alt="Hi There" className='px-3' />
                  </p>
 
                 <h1 className='title-font text-5xl mb-7 -mt-7 font-medium text-white'>
@@ -28,21 +29,26 @@ export default function About() {
                     <Cursor className="text-red-400"/>
                 </h1>
                 <div className="flex justify-center">
-                    <a
+                    <motion.a
+                    whileHover={{scale: 1.1}}
+                    transition={{type: "spring", stiffness: 100, damping: 5}}
                     href="#contact"
-                    className="inline-flex text-black bg-cyan-400 border-0 py-2 px-6 focus:outline-none hover:bg-black hover:text-white rounded text-lg">
+                    className="inline-flex text-white bg-black border-2 hover:border-none py-2 px-6 focus:outline-none hover:bg-cyan-500 hover:text-black rounded-[40px] text-lg
+                     hover:shadow-cyan-400 hover:shadow-2xl">
                     Connect With Me
-                    </a>
-                    <a
+                    </motion.a>
+                    <motion.a
+                     whileHover={{scale: 1.1}}
+                    transition={{type: "spring", stiffness: 100, damping: 5}}
                     href="#projects"
-                    className="ml-4 inline-flex text-white bg-black hover:bg-cyan-400 hover:text-transparent hover:bg-clip-text border-0 py-2 px-6 focus:outline-none rounded text-lg">
+                    className="ml-4 inline-flex text-white bg-black border-2 hover:border-none hover:bg-cyan-400 hover:text-black py-2 px-6 focus:outline-none rounded-[40px] hover:shadow-cyan-400 hover:shadow-2xl text-lg">
                     See My Past Work
-                    </a>
+                    </motion.a>
                 </div>
             </div>
 
 
-            <div class="devPic" className="relative bg-black w-[400px] h-[400px] rounded-full overflow-hidden before:content-[''] before:absolute before:inset-[-10px_140px] before:bg-gradient-to-r from-cyan-400 to-pink-400 before:animate-spin
+            <div class="devPic" className="relative bg-black w-[400px] h-[400px] rounded-full overflow-hidden before:content-[''] before:absolute before:inset-[-10px_140px] before:bg-gradient-to-r from-cyan-400 to-pink-400 before:animate-rotate
             hover:before:inset-[-20px_0px] after:content-[''] after:absolute after:inset-[7px] after:bg-black after:rounded-full after:z-[1]">
 
                 <div class="content" className='absolute inset-[30px] border-4 z-[3] border-black rounded-full overflow-hidden flex justify-center items-center flex-col'>

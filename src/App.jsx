@@ -8,7 +8,8 @@ import Footer from './Components/Footer'
 function App() {
 
   return (
-    <main className='body-front text-gray-400 bg-black'>
+    <main
+    className='body-front text-gray-400 bg-black'>
       
       <Navbar />
       <About />
