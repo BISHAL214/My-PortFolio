@@ -10,9 +10,15 @@ export default function About() {
         <div className='container mx-auto flex px-10 py-20 md:flex-row flex-col items-center h-auto'>
             <div className='lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center'>
 
-                <p className="mb-8 leading-relaxed text-3xl flex flex-row text-white"> Hi There
-                    <img src="./Hiiii.png" alt="Hi There" className='px-3' />
-                 </p>
+                <motion.p
+                initial={{x: -500}}
+                animate={{x: 0}}
+                transition={{
+                    delay: 0.5
+                }}
+                className="mb-8 leading-relaxed text-3xl flex flex-row text-white"> Hi There
+                <img src="./Hiiii.png" alt="Hi There" className='px-3' />
+                 </motion.p>
 
                 <h1 className='title-font text-5xl mb-7 -mt-7 font-medium text-white'>
                     I
@@ -21,12 +27,14 @@ export default function About() {
                         <Typewriter 
                         words={['am Bishal Mondal', 'am a Web Designer', 'am a Frontend Web Developer', 'Love To Build Amazing Web Apps']}
                         loop={false}
-                        typeSpeed={70}
-                        deleteSpeed={100}
-                        delaySpeed={1000}
+                        typeSpeed={150}
+                        deleteSpeed={150}
+                        delaySpeed={1500}
                         />
                     </span>
-                    <Cursor className="text-red-400"/>
+                    <Cursor 
+                    cursorBlinking={true}
+                    cursorStyle="_"/>
                 </h1>
                 <div className="flex justify-center">
                     <motion.a
