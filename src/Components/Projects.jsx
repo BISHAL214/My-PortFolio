@@ -60,7 +60,7 @@ export default function Projects() {
                             target='_blank'
                             className="sm:w-[1/2] rounded-[40px]">
 
-                                <div className="px-8 py-10 relative z-10 w-[300px] bg-white bg-opacity-10 backdrop-blur-lg drop-shadow-lg opacity-50 hover:opacity-100 rounded-[40px]">
+                                <div className="px-8 py-10 relative z-10 w-[300px] bg-white bg-opacity-5 backdrop-blur-lg drop-shadow-lg opacity-100 hover:opacity-100 rounded-[40px]">
 
                                     <h2 className="tracking-widest text-sm title-font font-medium text-cyan-400 mb-1">
 

@@ -6,7 +6,8 @@ import Contact from './Components/Contact'
 import Footer from './Components/Footer'
 import Loader from './Components/Loader'
 import { useEffect, useState } from 'react'
-<script src="https://cdn.tailwindcss.com"></script>
+import ParticlesBg from './Components/ParticlesBg' 
+
 
 function App() {
 
@@ -27,16 +28,19 @@ function App() {
         <Loader 
         />
         :
+
         <>
-          <Navbar />
-          <About />
-          <Projects />
-          <Skills />
-          <Contact />
-          <Footer />
 
+          <div>
+            <Navbar />
+            <About />
+            <Projects />
+            <Skills />
+            <Contact />
+            <Footer />
+          </div>
+          <ParticlesBg />
         </>
-
 
       }
 
