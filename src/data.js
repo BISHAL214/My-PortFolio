@@ -5,7 +5,7 @@ export const projects = [
       description:
         "A simple Weather Checking Application which has a simple Card style User Interface. An API provided by OpenWeatherMap.org is used here to gathering the weather changing information as a data of my project. Here I use basic async await function to for handling the API",
       image:  "./weather.png",
-      link: "https://my-weather-app-cardui.netlify.app/",
+      link: "https://my-weather-app-card.netlify.app",
     },
   ];
 
